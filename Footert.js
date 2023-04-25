@@ -10,7 +10,7 @@ document.write(`<div id="orquidea-slideup" style="display:block;position:fixed;z
               document.getElementById('orquidea-slideup-ad-slot').style.height = google_footer_height+'px';
               window.googletag = window.googletag || {cmd: []};
               googletag.cmd.push(function() {
-              googletag.defineSlot('/211182487,22695236968/www.yalla.kooragoal.live_Footer', [google_footer_width, google_footer_height], 'gpt-passback_12').addService(googletag.pubads());
+              googletag.defineSlot('/211182487,22695236968/yalla.kooragoal.live_Footer', [google_footer_width, google_footer_height], 'gpt-passback_12').addService(googletag.pubads());
               googletag.enableServices();
               googletag.display('gpt-passback_12');
               });
